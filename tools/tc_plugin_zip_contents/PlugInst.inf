@@ -1,0 +1,5 @@
+[PluginInstall]
+Description=ElfViewer v1.0
+Type=wlx
+File=elfviewer.wlx
+DefaultDir=Plugins\wlx\elfviewer

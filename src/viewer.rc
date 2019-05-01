@@ -1,0 +1,30 @@
+#include <windows.h>
+#include "project_cfg.h"
+
+// DLL version information.
+VS_VERSION_INFO    VERSIONINFO
+FILEVERSION        MAJOR_VERSION,MINOR_VERSION,0,0
+FILEFLAGSMASK      VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+  FILEFLAGS        VS_FF_DEBUG | VS_FF_PRERELEASE
+#else
+  FILEFLAGS        0
+#endif
+FILEOS             VOS_NT_WINDOWS32
+FILETYPE           VFT_DLL
+FILESUBTYPE        VFT2_UNKNOWN
+{
+  BLOCK "StringFileInfo"
+  {
+      BLOCK "040901b5"
+      {
+          VALUE "CompanyName", "StuntStein"
+          VALUE "FileDescription", "TotalCommander plugin"
+      }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x409, 1252
+  }
+}
+

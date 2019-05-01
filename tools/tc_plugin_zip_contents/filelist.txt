@@ -1,0 +1,8 @@
+..\build\release\elfviewer.wlx
+..\build\release64\elfviewer.wlx64
+.\tc_plugin_zip_contents\PlugInst.inf 
+.\tc_plugin_zip_contents\wlx2txt.exe 
+.\tc_plugin_zip_contents\wlx2txt64.exe
+.\tc_plugin_zip_contents\elf2txt.bat 
+.\tc_plugin_zip_contents\elf2txt64.bat
+.\tc_plugin_zip_contents\readme.txt
